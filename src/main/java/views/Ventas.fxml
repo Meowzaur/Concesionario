@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="1024.0" prefWidth="1440.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <AnchorPane style="-fx-background-color: rgb(50,50,50);" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane layoutX="74.0" layoutY="66.0" prefHeight="342.0" prefWidth="352.0" style="-fx-border-color: palegreen;">
+               <children>
+                  <TextField layoutX="26.0" layoutY="39.0" prefHeight="18.0" prefWidth="300.0" />
+                  <TextField layoutX="26.0" layoutY="85.0" prefHeight="18.0" prefWidth="300.0" />
+                  <TextField layoutX="26.0" layoutY="132.0" prefHeight="18.0" prefWidth="300.0" />
+                  <TextField layoutX="26.0" layoutY="177.0" prefHeight="18.0" prefWidth="300.0" />
+                  <TextField layoutX="26.0" layoutY="222.0" prefHeight="18.0" prefWidth="300.0" />
+                  <TextField layoutX="26.0" layoutY="267.0" prefHeight="18.0" prefWidth="300.0" />
+                  <Button layoutX="138.0" layoutY="302.0" mnemonicParsing="false" style="-fx-background-color: BLACK; -fx-border-color: PALEGREEN;" text="REGISTRAR" textFill="WHITE" />
+                  <Label layoutX="28.0" layoutY="23.0" text="DNI/NIE" textFill="WHITE" />
+                  <Label layoutX="27.0" layoutY="69.0" text="Nombre" textFill="WHITE" />
+                  <Label layoutX="28.0" layoutY="117.0" text="Teléfono" textFill="WHITE" />
+                  <Label layoutX="26.0" layoutY="161.0" text="Dirección" textFill="WHITE" />
+                  <Label layoutX="27.0" layoutY="207.0" text="Nº Cuenta" textFill="WHITE" />
+                  <Label layoutX="26.0" layoutY="252.0" text="¿Compró vehículo con anterioridad?" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="74.0" layoutY="459.0" prefHeight="342.0" prefWidth="352.0" style="-fx-border-color: palegreen;">
+               <children>
+                  <TextField layoutX="29.0" layoutY="101.0" prefHeight="18.0" prefWidth="300.0" />
+                  <TextField layoutX="29.0" layoutY="147.0" prefHeight="18.0" prefWidth="300.0" />
+                  <TextField layoutX="29.0" layoutY="194.0" prefHeight="18.0" prefWidth="300.0" />
+                  <TextField layoutX="29.0" layoutY="239.0" prefHeight="18.0" prefWidth="300.0" />
+                  <TextField layoutX="29.0" layoutY="284.0" prefHeight="18.0" prefWidth="300.0" />
+                  <Label layoutX="31.0" layoutY="85.0" text="DNI/NIE" textFill="WHITE" />
+                  <Label layoutX="30.0" layoutY="131.0" text="Nombre" textFill="WHITE" />
+                  <Label layoutX="31.0" layoutY="179.0" text="Teléfono" textFill="WHITE" />
+                  <Label layoutX="29.0" layoutY="223.0" text="Dirección" textFill="WHITE" />
+                  <Label layoutX="30.0" layoutY="269.0" text="Nº Cuenta" textFill="WHITE" />
+                  <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="42.0" layoutY="39.0">
+                     <image>
+                        <Image url="@../../../../../../../Desktop/lamborghini/3721746.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="260.0" layoutY="43.0" mnemonicParsing="false" style="-fx-background-color: BLACK; -fx-border-color: PALEGREEN;" text="BUSCAR" textFill="WHITE" />
+                  <TextField layoutX="84.0" layoutY="44.0" prefHeight="26.0" prefWidth="160.0" promptText="Buscar" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="489.0" layoutY="459.0" prefHeight="342.0" prefWidth="352.0" style="-fx-border-color: palegreen;">
+               <children>
+                  <TextField layoutX="27.0" layoutY="20.0" prefHeight="18.0" prefWidth="300.0" />
+                  <TextField layoutX="27.0" layoutY="62.0" prefHeight="18.0" prefWidth="300.0" />
+                  <TextField layoutX="27.0" layoutY="103.0" prefHeight="18.0" prefWidth="300.0" />
+                  <TextField layoutX="27.0" layoutY="145.0" prefHeight="18.0" prefWidth="300.0" />
+                  <TextField layoutX="27.0" layoutY="186.0" prefHeight="18.0" prefWidth="300.0" />
+                  <TextField layoutX="27.0" layoutY="227.0" prefHeight="18.0" prefWidth="300.0" />
+                  <Button layoutX="245.0" layoutY="307.0" mnemonicParsing="false" style="-fx-background-color: BLACK; -fx-border-color: PALEGREEN;" text="PROPUESTA" textFill="WHITE" />
+                  <Label layoutX="29.0" layoutY="4.0" text="DNI/NIE" textFill="WHITE" />
+                  <Label layoutX="28.0" layoutY="46.0" text="Nombre" textFill="WHITE" />
+                  <Label layoutX="29.0" layoutY="88.0" text="Teléfono" textFill="WHITE" />
+                  <Label layoutX="27.0" layoutY="129.0" text="Precio" textFill="WHITE" />
+                  <Label layoutX="28.0" layoutY="171.0" text="Fecha validez" textFill="WHITE" />
+                  <Label layoutX="27.0" layoutY="212.0" text="Marca vehículo" textFill="WHITE" />
+                  <TextField layoutX="27.0" layoutY="268.0" prefHeight="18.0" prefWidth="300.0" />
+                  <Label layoutX="27.0" layoutY="253.0" text="Modelo vehículo" textFill="WHITE" />
+                  <Label layoutX="29.0" layoutY="303.0" text="¿Aceptó la propuesta?" textFill="WHITE" />
+                  <CheckBox layoutX="158.0" layoutY="303.0" mnemonicParsing="false" text="Sí" textFill="WHITE" />
+                  <CheckBox layoutX="197.0" layoutY="303.0" mnemonicParsing="false" text="No" textFill="WHITE" />
+               </children></AnchorPane>
+            <AnchorPane layoutX="916.0" layoutY="459.0" prefHeight="342.0" prefWidth="352.0" style="-fx-border-color: palegreen;">
+               <children>
+                  <TextField layoutX="23.0" layoutY="30.0" prefHeight="18.0" prefWidth="142.0" />
+                  <TextField layoutX="23.0" layoutY="72.0" prefHeight="18.0" prefWidth="142.0" />
+                  <TextField layoutX="23.0" layoutY="113.0" prefHeight="18.0" prefWidth="142.0" />
+                  <TextField layoutX="23.0" layoutY="155.0" prefHeight="18.0" prefWidth="142.0" />
+                  <TextField layoutX="23.0" layoutY="196.0" prefHeight="18.0" prefWidth="142.0" />
+                  <Button layoutX="143.0" layoutY="289.0" mnemonicParsing="false" style="-fx-background-color: BLACK; -fx-border-color: PALEGREEN;" text="VENDER" textFill="WHITE" />
+                  <Label layoutX="25.0" layoutY="14.0" text="DNI/NIE" textFill="WHITE" />
+                  <Label layoutX="24.0" layoutY="56.0" text="Nombre" textFill="WHITE" />
+                  <Label layoutX="25.0" layoutY="98.0" text="Teléfono" textFill="WHITE" />
+                  <Label layoutX="23.0" layoutY="139.0" text="Dirección" textFill="WHITE" />
+                  <Label layoutX="24.0" layoutY="181.0" text="Nº Cuenta" textFill="WHITE" />
+                  <TextField layoutX="185.0" layoutY="31.0" prefHeight="18.0" prefWidth="142.0" />
+                  <TextField layoutX="185.0" layoutY="72.0" prefHeight="18.0" prefWidth="142.0" />
+                  <TextField layoutX="185.0" layoutY="114.0" prefHeight="18.0" prefWidth="142.0" />
+                  <TextField layoutX="185.0" layoutY="155.0" prefHeight="18.0" prefWidth="142.0" />
+                  <TextField layoutX="185.0" layoutY="196.0" prefHeight="18.0" prefWidth="142.0" />
+                  <Label layoutX="186.0" layoutY="15.0" text="Matrícula" textFill="WHITE" />
+                  <Label layoutX="187.0" layoutY="57.0" text="Descuento" textFill="WHITE" />
+                  <Label layoutX="185.0" layoutY="98.0" text="Precio" textFill="WHITE" />
+                  <Label layoutX="186.0" layoutY="140.0" text="Fecha venta" textFill="WHITE" />
+                  <Label layoutX="185.0" layoutY="181.0" text="Marca vehículo" textFill="WHITE" />
+                  <TextField layoutX="185.0" layoutY="237.0" prefHeight="18.0" prefWidth="142.0" />
+                  <Label layoutX="185.0" layoutY="222.0" text="Modelo vehículo" textFill="WHITE" />
+               </children></AnchorPane>
+            <AnchorPane layoutX="488.0" layoutY="66.0" prefHeight="342.0" prefWidth="781.0" style="-fx-border-color: palegreen;">
+               <children>
+                  <TableView layoutX="25.0" layoutY="55.0" prefHeight="264.0" prefWidth="730.0">
+                    <columns>
+                      <TableColumn prefWidth="27.199951171875" text="ID" />
+                      <TableColumn prefWidth="61.60003662109375" text="Matrícula" />
+                        <TableColumn prefWidth="114.39996337890625" text="Marca" />
+                        <TableColumn prefWidth="120.0" text="Modelo" />
+                        <TableColumn prefWidth="72.0" text="Color" />
+                        <TableColumn prefWidth="68.79998779296875" text="Precio" />
+                        <TableColumn prefWidth="52.7999267578125" text="Vendido" />
+                        <TableColumn prefWidth="88.800048828125" text="Estado" />
+                        <TableColumn prefWidth="39.199951171875" text="Días" />
+                        <TableColumn prefWidth="81.5999755859375" text="FechaEntrada" />
+                    </columns>
+                  </TableView>
+                  <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="248.0" layoutY="14.0">
+                     <image>
+                        <Image url="@../../../../../../../Desktop/lamborghini/3721746.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="469.0" layoutY="18.0" mnemonicParsing="false" style="-fx-background-color: BLACK; -fx-border-color: PALEGREEN;" text="BUSCAR" textFill="WHITE" />
+                  <TextField layoutX="296.0" layoutY="18.0" prefHeight="26.0" prefWidth="160.0" promptText="Buscar" />
+               </children></AnchorPane>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="74.0" layoutY="39.0" prefHeight="26.0" prefWidth="352.0" text="REGISTRAR CLIENTE" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="74.0" layoutY="432.0" prefHeight="26.0" prefWidth="352.0" text="BUSCAR CLIENTE" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="489.0" layoutY="432.0" prefHeight="26.0" prefWidth="352.0" text="ENVIAR PROPUESTA" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="916.0" layoutY="432.0" prefHeight="26.0" prefWidth="352.0" text="VENDER VEHÍCULO" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="489.0" layoutY="39.0" prefHeight="26.0" prefWidth="779.0" text="BUSCAR COCHE" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+   </center>
+   <top>
+      <AnchorPane prefHeight="175.0" prefWidth="1440.0" style="-fx-background-color: red;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="175.0" fitWidth="1440.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@../../../../../../../Desktop/lamborghini/5.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </top>
+   <left>
+      <AnchorPane prefHeight="849.0" prefWidth="110.0" style="-fx-background-color: dimgray;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="2.0" layoutY="680.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+               <image>
+                  <Image url="@../../../../../../../Desktop/lamborghini/1280px-ISO_7010_E002_new.svg_.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="-37.0" layoutY="-4.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="30.0">
+               <image>
+                  <Image url="@../../../../../../../Desktop/lamborghini/circulo.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="9.0" layoutY="125.0" prefHeight="37.0" prefWidth="110.0" text="NombreUsuario" textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="25.0" layoutY="107.0" text="Bienvenido" textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>

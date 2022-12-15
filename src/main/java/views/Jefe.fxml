@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="1024.0" prefWidth="1440.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <AnchorPane style="-fx-background-color: rgb(50,50,50);" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane layoutX="57.0" layoutY="40.0" prefHeight="290.0" prefWidth="590.0" style="-fx-border-color: white;">
+               <children>
+                  <TableView layoutX="16.0" layoutY="14.0" prefHeight="186.0" prefWidth="558.0">
+                    <columns>
+                      <TableColumn prefWidth="34.4000244140625" text="ID" />
+                      <TableColumn prefWidth="68.79999542236328" text="Matrícula" />
+                        <TableColumn prefWidth="116.800048828125" text="Marca" />
+                        <TableColumn prefWidth="121.60000610351562" text="Modelo" />
+                        <TableColumn prefWidth="56.79998779296875" text="Color" />
+                        <TableColumn prefWidth="75.99996948242188" text="Precio" />
+                        <TableColumn prefWidth="84.79998779296875" text="Fecha" />
+                    </columns>
+                  </TableView>
+                  <Label layoutX="16.0" layoutY="217.0" text="Importe total vendido:" textFill="WHITE" />
+                  <TextField layoutX="146.0" layoutY="213.0" prefHeight="26.0" prefWidth="143.0" />
+                  <Label layoutX="16.0" layoutY="253.0" text="Modelo más vendido:" textFill="WHITE" />
+                  <TextField layoutX="146.0" layoutY="249.0" prefHeight="26.0" prefWidth="143.0" />
+                  <Label layoutX="312.0" layoutY="217.0" text="Importe media venta:" textFill="WHITE" />
+                  <TextField layoutX="432.0" layoutY="213.0" prefHeight="26.0" prefWidth="143.0" />
+                  <Label layoutX="312.0" layoutY="253.0" text="Marca más vendida:" textFill="WHITE" />
+                  <TextField layoutX="432.0" layoutY="248.0" prefHeight="26.0" prefWidth="143.0" />
+               </children>
+            </AnchorPane>
+            <Label layoutX="57.0" layoutY="14.0" text="VEHÍCULOS VENDIDOS" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="681.0" layoutY="40.0" prefHeight="290.0" prefWidth="590.0" style="-fx-border-color: white;">
+               <children>
+                  <TableView layoutX="16.0" layoutY="14.0" prefHeight="262.0" prefWidth="558.0">
+                     <columns>
+                        <TableColumn prefWidth="40.00006103515625" text="ID" />
+                        <TableColumn prefWidth="63.99993896484375" text="Matrícula" />
+                        <TableColumn prefWidth="95.199951171875" text="Marca" />
+                        <TableColumn prefWidth="109.60009765625" text="Modelo" />
+                        <TableColumn prefWidth="52.800048828125" text="Color" />
+                        <TableColumn prefWidth="62.39990234375" text="Precio" />
+                        <TableColumn prefWidth="62.4000244140625" text="Fecha" />
+                        <TableColumn prefWidth="68.00009765624998" text="DiasConcesionario" />
+                     </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+            <Label layoutX="681.0" layoutY="14.0" text="VEHÍCULOS SIN VENDER" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="57.0" layoutY="368.0" prefHeight="226.0" prefWidth="590.0" style="-fx-border-color: white;">
+               <children>
+                  <TableView layoutX="16.0" layoutY="13.0" prefHeight="200.0" prefWidth="558.0">
+                     <columns>
+                        <TableColumn prefWidth="60.800025939941406" text="ID Empleado" />
+                        <TableColumn prefWidth="131.199951171875" text="Nombre" />
+                        <TableColumn prefWidth="191.20001220703125" text="Apellidos" />
+                        <TableColumn prefWidth="81.59994506835938" text="Teléfono" />
+                        <TableColumn prefWidth="91.20001220703125" text="Ventas Totales" />
+                     </columns>
+                  </TableView>
+               </children></AnchorPane>
+            <Label layoutX="56.0" layoutY="342.0" text="VENTAS POR EMPLEADO" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="681.0" layoutY="368.0" prefHeight="226.0" prefWidth="590.0" style="-fx-border-color: white;">
+               <children>
+                  <TableView layoutX="16.0" layoutY="13.0" prefHeight="168.0" prefWidth="558.0">
+                     <columns>
+                        <TableColumn prefWidth="64.800048828125" text="ID Reparación" />
+                        <TableColumn prefWidth="148.79998779296875" text="Mecánico" />
+                        <TableColumn prefWidth="62.4000244140625" text="Matrícula" />
+                        <TableColumn prefWidth="195.9998779296875" text="Cliente" />
+                        <TableColumn prefWidth="83.2000732421875" text="Recaudación" />
+                     </columns>
+                  </TableView>
+                  <Label layoutX="102.0" layoutY="196.0" prefHeight="18.0" prefWidth="226.0" text="Importe total recaudado de reparaciones:" textFill="WHITE" />
+                  <TextField layoutX="344.0" layoutY="192.0" prefHeight="26.0" prefWidth="194.0" />
+               </children></AnchorPane>
+            <Label layoutX="680.0" layoutY="342.0" text="REPARACIONES Y MANTENIMIENTO" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="56.0" layoutY="615.0" prefHeight="220.0" prefWidth="1217.0" style="-fx-border-color: white;">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="4.0" layoutY="7.0" text="REGISTRO DE USUARIO" textFill="WHITE" AnchorPane.leftAnchor="4.0" AnchorPane.rightAnchor="2.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <AnchorPane layoutX="17.0" layoutY="33.0" prefHeight="172.0" prefWidth="1186.0" style="-fx-background-color: gray;">
+                     <children>
+                        <Label layoutX="33.0" layoutY="49.0" text="Nombre:" textFill="WHITE" />
+                        <TextField layoutX="96.0" layoutY="44.0" prefHeight="26.0" prefWidth="200.0" />
+                        <Label layoutX="336.0" layoutY="49.0" text="Teléfono:" textFill="WHITE" />
+                        <Label layoutX="33.0" layoutY="89.0" text="Apellidos:" textFill="WHITE" />
+                        <TextField layoutX="96.0" layoutY="84.0" prefHeight="26.0" prefWidth="200.0" />
+                        <Label layoutX="336.0" layoutY="89.0" text="Nº Cuenta:" textFill="WHITE" />
+                        <Label layoutX="33.0" layoutY="128.0" text="DNI/NIE:" textFill="WHITE" />
+                        <TextField layoutX="96.0" layoutY="123.0" prefHeight="26.0" prefWidth="200.0" />
+                        <Label layoutX="336.0" layoutY="128.0" text="Dirección:" textFill="WHITE" />
+                        <TextField layoutX="402.0" layoutY="44.0" prefHeight="26.0" prefWidth="200.0" />
+                        <TextField layoutX="402.0" layoutY="84.0" prefHeight="26.0" prefWidth="200.0" />
+                        <TextField layoutX="402.0" layoutY="123.0" prefHeight="26.0" prefWidth="200.0" />
+                        <AnchorPane layoutX="622.0" layoutY="7.0" prefHeight="158.0" prefWidth="393.0" style="-fx-border-color: white;">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="78.0" layoutY="4.0" prefHeight="20.0" prefWidth="258.0" text="Datos exclusivos para registrar mecánico:" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="31.0" layoutY="52.0" prefHeight="20.0" prefWidth="110.0" text="¿Es mecánico jefe?" textFill="WHITE" />
+                              <CheckBox layoutX="45.0" layoutY="79.0" mnemonicParsing="false" text="Sí" textFill="WHITE" />
+                              <CheckBox layoutX="94.0" layoutY="79.0" mnemonicParsing="false" text="No" textFill="WHITE" />
+                              <ChoiceBox layoutX="203.0" layoutY="75.0" prefHeight="16.0" prefWidth="150.0" />
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="223.0" layoutY="52.0" prefHeight="20.0" prefWidth="110.0" text="Especialidad en:" textFill="WHITE" />
+                           </children>
+                        </AnchorPane>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="1065.0" layoutY="27.0" text="REGISTRAR" textFill="WHITE">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="1079.0" layoutY="47.0" text="COMO" textFill="WHITE">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="1051.0" layoutY="81.0" mnemonicParsing="false" style="-fx-background-color: BLACK;" text="EMPLEADO" textFill="WHITE">
+                           <font>
+                              <Font size="15.0" />
+                           </font></Button>
+                        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="1052.0" layoutY="120.0" mnemonicParsing="false" style="-fx-background-color: BLACK;" text="MECÁNICO" textFill="WHITE">
+                           <font>
+                              <Font size="15.0" />
+                           </font></Button>
+                     </children></AnchorPane>
+               </children>
+            </AnchorPane>
+         </children></AnchorPane>
+   </center>
+   <top>
+      <AnchorPane prefHeight="175.0" prefWidth="1440.0" style="-fx-background-color: red;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="175.0" fitWidth="1440.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@../../../../../../../Desktop/lamborghini/5.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </top>
+      <left>
+      <AnchorPane prefHeight="849.0" prefWidth="110.0" style="-fx-background-color: dimgray;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="2.0" layoutY="680.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+               <image>
+                  <Image url="@../../../../../../../Desktop/lamborghini/1280px-ISO_7010_E002_new.svg_.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="-37.0" layoutY="-4.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="30.0">
+               <image>
+                  <Image url="@../../../../../../../Desktop/lamborghini/circulo.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="41.0" layoutY="107.0" text="Bienvenido" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="25.0" layoutY="125.0" prefHeight="38.0" prefWidth="110.0" text="NombreUsuario" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>
