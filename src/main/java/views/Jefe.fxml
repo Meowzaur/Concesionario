@@ -17,7 +17,7 @@
    <center>
       <AnchorPane style="-fx-background-color: rgb(50,50,50);" BorderPane.alignment="CENTER">
          <children>
-            <AnchorPane layoutX="57.0" layoutY="40.0" prefHeight="290.0" prefWidth="590.0" style="-fx-border-color: white;">
+            <AnchorPane layoutX="57.0" layoutY="40.0" prefHeight="290.0" prefWidth="590.0" style="-fx-border-color: palegreen;">
                <children>
                   <TableView layoutX="16.0" layoutY="14.0" prefHeight="186.0" prefWidth="558.0">
                     <columns>
@@ -45,7 +45,7 @@
                   <Font size="16.0" />
                </font>
             </Label>
-            <AnchorPane layoutX="681.0" layoutY="40.0" prefHeight="290.0" prefWidth="590.0" style="-fx-border-color: white;">
+            <AnchorPane layoutX="681.0" layoutY="40.0" prefHeight="290.0" prefWidth="590.0" style="-fx-border-color: palegreen;">
                <children>
                   <TableView layoutX="16.0" layoutY="14.0" prefHeight="262.0" prefWidth="558.0">
                      <columns>
@@ -66,7 +66,7 @@
                   <Font size="16.0" />
                </font>
             </Label>
-            <AnchorPane layoutX="57.0" layoutY="368.0" prefHeight="226.0" prefWidth="590.0" style="-fx-border-color: white;">
+            <AnchorPane layoutX="57.0" layoutY="368.0" prefHeight="226.0" prefWidth="590.0" style="-fx-border-color: palegreen;">
                <children>
                   <TableView layoutX="16.0" layoutY="13.0" prefHeight="200.0" prefWidth="558.0">
                      <columns>
@@ -83,7 +83,7 @@
                   <Font size="16.0" />
                </font>
             </Label>
-            <AnchorPane layoutX="681.0" layoutY="368.0" prefHeight="226.0" prefWidth="590.0" style="-fx-border-color: white;">
+            <AnchorPane layoutX="681.0" layoutY="368.0" prefHeight="226.0" prefWidth="590.0" style="-fx-border-color: palegreen;">
                <children>
                   <TableView layoutX="16.0" layoutY="13.0" prefHeight="168.0" prefWidth="558.0">
                      <columns>
@@ -102,7 +102,7 @@
                   <Font size="16.0" />
                </font>
             </Label>
-            <AnchorPane layoutX="56.0" layoutY="615.0" prefHeight="220.0" prefWidth="1217.0" style="-fx-border-color: white;">
+            <AnchorPane layoutX="56.0" layoutY="615.0" prefHeight="220.0" prefWidth="1217.0" style="-fx-border-color: palegreen;">
                <children>
                   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="4.0" layoutY="7.0" text="REGISTRO DE USUARIO" textFill="WHITE" AnchorPane.leftAnchor="4.0" AnchorPane.rightAnchor="2.0">
                      <font>
