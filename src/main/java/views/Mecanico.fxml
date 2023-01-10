@@ -19,7 +19,7 @@
                   <Image url="@../../../../../../../Desktop/lamborghini/580b57fcd9996e24bc43c449.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="939.0" layoutY="193.0" AnchorPane.rightAnchor="251.0">
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="996.0" layoutY="193.0" AnchorPane.rightAnchor="294.0">
                <image>
                   <Image url="@../../../../../../../Desktop/lamborghini/580b57fcd9996e24bc43c449.png" />
                </image>
