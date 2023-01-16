@@ -18,22 +18,22 @@
                <children>
                   <AnchorPane layoutX="5.0" layoutY="5.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: dimgrey;" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
                      <children>
-                        <TextField layoutX="175.0" layoutY="138.0" prefHeight="35.0" prefWidth="154.0" promptText="Usuario" AnchorPane.leftAnchor="175.0" AnchorPane.rightAnchor="175.0">
+                        <TextField fx:id="txtUsuario" layoutX="175.0" layoutY="138.0" prefHeight="35.0" prefWidth="154.0" promptText="Usuario" AnchorPane.leftAnchor="175.0" AnchorPane.rightAnchor="175.0">
                            <font>
                               <Font size="15.0" />
                            </font>
                            <opaqueInsets>
                               <Insets />
                            </opaqueInsets></TextField>
-                        <TextField layoutX="175.0" layoutY="191.0" prefHeight="35.0" prefWidth="154.0" promptText="Contraseña" AnchorPane.leftAnchor="175.0" AnchorPane.rightAnchor="175.0">
-                           <font>
-                              <Font size="15.0" />
-                           </font></TextField>
-                        <Button contentDisplay="CENTER" layoutX="300.0" layoutY="308.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="130.0" style="-fx-background-color: BLACK;" text="LOGIN" textFill="WHITE" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="300.0">
+                        <Button fx:id="bt_login" contentDisplay="CENTER" layoutX="300.0" layoutY="308.0" mnemonicParsing="false" onAction="#actionLogin" prefHeight="42.0" prefWidth="130.0" style="-fx-background-color: BLACK;" text="LOGIN" textFill="WHITE" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="300.0">
                            <font>
                               <Font name="System Bold" size="15.0" />
                            </font></Button>
-                        <CheckBox layoutX="175.0" layoutY="247.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="133.0" text="Remember me" textFill="WHITE">
+                        <TextField fx:id="txtPassword" layoutX="175.0" layoutY="191.0" prefHeight="35.0" prefWidth="154.0" promptText="Contraseña" AnchorPane.leftAnchor="175.0" AnchorPane.rightAnchor="175.0">
+                           <font>
+                              <Font size="15.0" />
+                           </font></TextField>
+                        <CheckBox fx:id="chk_remeber" layoutX="175.0" layoutY="247.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="133.0" text="Remember me" textFill="WHITE">
                            <font>
                               <Font name="System Bold" size="12.0" />
                            </font>
