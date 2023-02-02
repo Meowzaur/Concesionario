@@ -31,13 +31,13 @@
                     </columns>
                   </TableView>
                   <Label layoutX="16.0" layoutY="217.0" text="Importe total vendido:" textFill="WHITE" />
-                  <TextField layoutX="146.0" layoutY="213.0" prefHeight="26.0" prefWidth="143.0" />
+                  <TextField fx:id="txtVehiculosVendidosImporteTotalVendido" layoutX="146.0" layoutY="213.0" prefHeight="26.0" prefWidth="143.0" />
                   <Label layoutX="16.0" layoutY="253.0" text="Modelo más vendido:" textFill="WHITE" />
-                  <TextField layoutX="146.0" layoutY="249.0" prefHeight="26.0" prefWidth="143.0" />
+                  <TextField fx:id="txtVehiculosVendidosModeloMasVendido" layoutX="146.0" layoutY="249.0" prefHeight="26.0" prefWidth="143.0" />
                   <Label layoutX="312.0" layoutY="217.0" text="Importe media venta:" textFill="WHITE" />
-                  <TextField layoutX="432.0" layoutY="213.0" prefHeight="26.0" prefWidth="143.0" />
+                  <TextField fx:id="txtVehiculosVendidosImporteMediaVenta" layoutX="432.0" layoutY="213.0" prefHeight="26.0" prefWidth="143.0" />
                   <Label layoutX="312.0" layoutY="253.0" text="Marca más vendida:" textFill="WHITE" />
-                  <TextField layoutX="432.0" layoutY="248.0" prefHeight="26.0" prefWidth="143.0" />
+                  <TextField fx:id="txtVehiculosVendidosMarcaMasVendida" layoutX="432.0" layoutY="248.0" prefHeight="26.0" prefWidth="143.0" />
                </children>
             </AnchorPane>
             <Label layoutX="57.0" layoutY="14.0" text="VEHÍCULOS VENDIDOS" textFill="WHITE">
@@ -95,7 +95,7 @@
                      </columns>
                   </TableView>
                   <Label layoutX="102.0" layoutY="196.0" prefHeight="18.0" prefWidth="226.0" text="Importe total recaudado de reparaciones:" textFill="WHITE" />
-                  <TextField layoutX="344.0" layoutY="192.0" prefHeight="26.0" prefWidth="194.0" />
+                  <TextField fx:id="txtReparacionesImporteTotalRecaudado" layoutX="344.0" layoutY="192.0" prefHeight="26.0" prefWidth="194.0" />
                </children></AnchorPane>
             <Label layoutX="680.0" layoutY="342.0" text="REPARACIONES Y MANTENIMIENTO" textFill="WHITE">
                <font>
@@ -112,17 +112,17 @@
                   <AnchorPane layoutX="17.0" layoutY="33.0" prefHeight="172.0" prefWidth="1186.0" style="-fx-background-color: gray;">
                      <children>
                         <Label layoutX="33.0" layoutY="49.0" text="Nombre:" textFill="WHITE" />
-                        <TextField layoutX="96.0" layoutY="44.0" prefHeight="26.0" prefWidth="200.0" />
+                        <TextField fx:id="txtRegistroUsuarioNombre" layoutX="96.0" layoutY="44.0" prefHeight="26.0" prefWidth="200.0" />
                         <Label layoutX="336.0" layoutY="49.0" text="Teléfono:" textFill="WHITE" />
                         <Label layoutX="33.0" layoutY="89.0" text="Apellidos:" textFill="WHITE" />
-                        <TextField layoutX="96.0" layoutY="84.0" prefHeight="26.0" prefWidth="200.0" />
+                        <TextField fx:id="txtRegistroUsuarioApellidos" layoutX="96.0" layoutY="84.0" prefHeight="26.0" prefWidth="200.0" />
                         <Label layoutX="336.0" layoutY="89.0" text="Nº Cuenta:" textFill="WHITE" />
                         <Label layoutX="33.0" layoutY="128.0" text="DNI/NIE:" textFill="WHITE" />
-                        <TextField layoutX="96.0" layoutY="123.0" prefHeight="26.0" prefWidth="200.0" />
+                        <TextField fx:id="txtRegistroUsuarioDNI" layoutX="96.0" layoutY="123.0" prefHeight="26.0" prefWidth="200.0" />
                         <Label layoutX="336.0" layoutY="128.0" text="Dirección:" textFill="WHITE" />
-                        <TextField layoutX="402.0" layoutY="44.0" prefHeight="26.0" prefWidth="200.0" />
-                        <TextField layoutX="402.0" layoutY="84.0" prefHeight="26.0" prefWidth="200.0" />
-                        <TextField layoutX="402.0" layoutY="123.0" prefHeight="26.0" prefWidth="200.0" />
+                        <TextField fx:id="txtRegistroUsuarioTelefono" layoutX="402.0" layoutY="44.0" prefHeight="26.0" prefWidth="200.0" />
+                        <TextField fx:id="txtRegistroUsuarioNumeroCuenta" layoutX="402.0" layoutY="84.0" prefHeight="26.0" prefWidth="200.0" />
+                        <TextField fx:id="txtRegistroUsuarioDireccion" layoutX="402.0" layoutY="123.0" prefHeight="26.0" prefWidth="200.0" />
                         <AnchorPane layoutX="622.0" layoutY="7.0" prefHeight="158.0" prefWidth="393.0" style="-fx-border-color: white;">
                            <children>
                               <Label alignment="CENTER" contentDisplay="CENTER" layoutX="78.0" layoutY="4.0" prefHeight="20.0" prefWidth="258.0" text="Datos exclusivos para registrar mecánico:" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
@@ -131,9 +131,8 @@
                                  </font>
                               </Label>
                               <Label alignment="CENTER" contentDisplay="CENTER" layoutX="31.0" layoutY="52.0" prefHeight="20.0" prefWidth="110.0" text="¿Es mecánico jefe?" textFill="WHITE" />
-                              <CheckBox layoutX="45.0" layoutY="79.0" mnemonicParsing="false" text="Sí" textFill="WHITE" />
-                              <CheckBox layoutX="94.0" layoutY="79.0" mnemonicParsing="false" text="No" textFill="WHITE" />
-                              <ChoiceBox layoutX="203.0" layoutY="75.0" prefHeight="16.0" prefWidth="150.0" />
+                              <CheckBox fx:id="chk_RegistroUsuarioSi" layoutX="71.0" layoutY="79.0" mnemonicParsing="false" text="Sí" textFill="WHITE" />
+                              <ChoiceBox fx:id="chbEspecialidad" layoutX="203.0" layoutY="75.0" prefHeight="16.0" prefWidth="150.0" />
                               <Label alignment="CENTER" contentDisplay="CENTER" layoutX="223.0" layoutY="52.0" prefHeight="20.0" prefWidth="110.0" text="Especialidad en:" textFill="WHITE" />
                            </children>
                         </AnchorPane>
@@ -147,11 +146,11 @@
                               <Font size="14.0" />
                            </font>
                         </Label>
-                        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="1051.0" layoutY="81.0" mnemonicParsing="false" style="-fx-background-color: BLACK;" text="EMPLEADO" textFill="WHITE">
+                        <Button fx:id="btEmpleado" alignment="CENTER" contentDisplay="CENTER" layoutX="1051.0" layoutY="81.0" mnemonicParsing="false" style="-fx-background-color: BLACK;" text="EMPLEADO" textFill="WHITE">
                            <font>
                               <Font size="15.0" />
                            </font></Button>
-                        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="1052.0" layoutY="120.0" mnemonicParsing="false" style="-fx-background-color: BLACK;" text="MECÁNICO" textFill="WHITE">
+                        <Button fx:id="btMecanico" alignment="CENTER" contentDisplay="CENTER" layoutX="1052.0" layoutY="120.0" mnemonicParsing="false" style="-fx-background-color: BLACK;" text="MECÁNICO" textFill="WHITE">
                            <font>
                               <Font size="15.0" />
                            </font></Button>
@@ -174,7 +173,7 @@
       <left>
       <AnchorPane prefHeight="849.0" prefWidth="110.0" style="-fx-background-color: dimgray;" BorderPane.alignment="CENTER">
          <children>
-            <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="2.0" layoutY="680.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+            <ImageView fx:id="ivExit" fitHeight="70.0" fitWidth="70.0" layoutX="2.0" layoutY="680.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
                <image>
                   <Image url="@../../../../../../../Desktop/lamborghini/1280px-ISO_7010_E002_new.svg_.png" />
                </image>

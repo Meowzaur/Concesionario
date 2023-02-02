@@ -7,28 +7,31 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
 
-public class MecanicoController {
+public class MecanicoJefeController {
 
     @FXML
-    private Button btnReparado;
+    private Button btAsignar;
 
     @FXML
     private ChoiceBox<?> chbNombre;
 
     @FXML
-    private ImageView ivAtras;
+    private ImageView ivAnterior;
 
     @FXML
-    private ImageView ivSalir;
+    private ImageView ivExit;
 
     @FXML
     private ImageView ivSiguiente;
 
     @FXML
-    private ImageView ivVistaJefe;
+    private ImageView ivVistaMecanico;
 
     @FXML
-    private Label lbVistaJefe;
+    private Label lbVistaMecanico;
+
+    @FXML
+    private TextField txMatricula;
 
     @FXML
     private TextField txtAveria;
@@ -37,27 +40,18 @@ public class MecanicoController {
     private TextField txtEspecialidad;
 
     @FXML
-    private TextField txtFechaEntrada;
-
-    @FXML
-    private TextField txtFechaSalida;
-
-    @FXML
     private TextField txtMarca;
-
-    @FXML
-    private TextField txtMatricula;
 
     @FXML
     private TextField txtModelo;
 
     @FXML
-    private TextField txtNumReparacion;
+    private TextField txtNumeroReparacion;
 
     @FXML
-    private TextField txtPresupuesto;
+    private TextField txtPresupuestoEstimado;
 
     @FXML
-    private TextField txtTiempo;
+    private TextField txtTiempoEstimado;
 
 }

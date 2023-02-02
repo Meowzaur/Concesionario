@@ -10,17 +10,17 @@ import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 import views.LoginController;
 
-public class MainApp extends Application{
+public class MainApp extends Application {
 
 	private Stage primaryStage;
-	//private BorderPane rootLayout;
+	// private BorderPane rootLayout;
 
 	@Override
 	public void start(Stage primaryStage) {
-	    this.primaryStage = primaryStage;
-	    this.primaryStage.setTitle("AddressApp");
+		this.primaryStage = primaryStage;
+		this.primaryStage.setTitle("AddressApp");
 
-	    initRootLayout();
+		initRootLayout();
 	}
 
 	/**
@@ -42,11 +42,11 @@ public class MainApp extends Application{
 			e.printStackTrace();
 		}
 	}
-	
+
 	public Stage getPrimaryStage() {
 		return primaryStage;
 	}
-	
+
 	public static void main(String[] args) {
 		launch(args);
 	}
